@@ -1,0 +1,40 @@
+# Compiled files
+*.class
+target/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.svn/
+.vscode/
+.settings/
+.project
+.classpath
+
+# Log files
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# Eclipse
+bin/
+.metadata/
+
+# IntelliJ
+out/
+
+# Temporary files
+*.swp
+*.swo
+*~
