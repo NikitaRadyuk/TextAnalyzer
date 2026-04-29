@@ -6,7 +6,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public abstract class AbstractTextParser implements Parser {
-    protected static final Logger logger = LogManager.getLogger(AbstractTextParser.class);
+    protected static final Logger logger = LogManager.getLogger();
     protected Parser nextParser;
 
     @Override
