@@ -17,14 +17,4 @@ public class FileUtil {
         return Files.readString(path, StandardCharsets.UTF_8);
     }
 
-    public static String readFileContent(String filePath, String encoding) throws IOException {
-        Path path = Paths.get(filePath);
-        if (!Files.exists(path)) {
-            throw new IOException("File not found: " + filePath);
-        }
-
-        byte[] bytes = Files.readAllBytes(path);
-        return new String(bytes, encoding);
-    }
-
 }

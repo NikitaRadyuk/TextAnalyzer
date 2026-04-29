@@ -2,8 +2,6 @@ package org.infoHandling;
 
 import org.infoHandling.entity.*;
 import org.infoHandling.parser.*;
-import org.infoHandling.service.TextOperationService;
-import org.infoHandling.service.TextInfoService;
 import org.infoHandling.util.FileUtil;
 
 import java.util.*;
@@ -40,7 +38,6 @@ public class Main {
         // TASK 2
         System.out.println("TASK 2: Find sentences with most common words");
         System.out.println("-----------------------------------------");
-        // Simple implementation without complex structure
         String[] sentences = inputText.split("(?<=[.!?])\\s+(?=[A-Z])");
         Map<String, Integer> wordCount = new HashMap<>();
         for (String s : sentences) {
