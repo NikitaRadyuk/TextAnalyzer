@@ -10,7 +10,7 @@ public class LexemeParser implements Parser {
 
     @Override
     public void setNext(Parser next) { this.next = next; }
-
+ 
     @Override
     public TextComponent parse(String text) {
         TextComposite lexeme = new TextComposite(TextComponent.ComponentType.LEXEME);

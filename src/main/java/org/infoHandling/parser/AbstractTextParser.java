@@ -35,7 +35,6 @@ public abstract class AbstractTextParser implements Parser {
     private TextComponent processChildren(TextComposite composite, String originalText) {
         TextComposite newComposite = new TextComposite(composite.getType());
 
-        // Pass the original text to the next parser, not the child's content
         TextComponent processed = nextParser.parse(originalText);
 
         if (processed != null) {

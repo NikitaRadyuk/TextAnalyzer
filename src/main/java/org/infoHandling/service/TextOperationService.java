@@ -2,7 +2,6 @@ package org.infoHandling.service;
 
 import org.infoHandling.entity.*;
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class TextOperationService {
 

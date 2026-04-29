@@ -96,7 +96,6 @@ public class TextComposite implements TextComponent {
         List<TextComposite> result = new ArrayList<>();
 
         if (type == ComponentType.LEXEME) {
-            // Check if this lexeme is a word (all symbols are letters)
             boolean isWord = true;
             for (TextComponent child : children) {
                 if (child instanceof Symbol && !((Symbol) child).isLetter()) {
